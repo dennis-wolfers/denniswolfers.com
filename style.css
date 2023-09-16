@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0.5rem;
+    padding: 0;
+    display: flex;
+    gap: 6px;
+}
+
+nav ul li {
+    margin: 0;
+    list-style-type: none;
+    color: white;
+    background-color: purple;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.push-right {
+    margin-left: auto;
+}
