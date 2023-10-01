@@ -6,6 +6,20 @@ body {
     flex-direction: column;
 }
 
+.initials {
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40vh;
+    font-variation-settings: "wght" 900;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 2px 3px 4px #fff, 0 0 0 #000;
+}
+
 a {
     text-decoration: none;
     color: #999;
